@@ -1,2 +1,3 @@
 include versioneer.py
 include etelemetry/_version.py
+include tests
