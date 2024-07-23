@@ -1,7 +1,7 @@
 import pytest
 
-from ..config import ET_ROOT
-from ..client import _etrequest, get_project, check_available_version
+from etelemetry.config import ET_ROOT
+from etelemetry.client import _etrequest, get_project, check_available_version
 
 
 def check_cxn(scope="session"):
